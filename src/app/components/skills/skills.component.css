@@ -1,0 +1,9 @@
+.row{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.titulo{
+    box-shadow: 0px -2px 0px #999;
+}
