@@ -1,21 +1,31 @@
 <div class="row">
-    <h1 class="edu">Experiencia laboral</h1>
-    <div class="col-lg-1"></div>
-    <div class="col-lg-11">
+  <h1>Experiencia laboral</h1>
+  <div class="col-lg-2">
+      <button type="button" class="btn btn-outline-light" routerLink="/nuevaexp" *ngIf="isLogged">
+          Nueva Experiencia
+      </button>
+  </div>
 
-      <ul>
-        <li><h1>Secretaria asuntos estudiantiles UTN - FRSR</h1><h3>(8 Años)</h3></li>
-        <p>Gestion y organización de eventos</p>
-      </ul>
+  <div class="col lg 1"></div>
+  <div class="col-lg-11">
+      <table class="table">
+          <tbody>
+              <tr *ngFor="let Experiencia of expe">
+                  <td>
+                      <h2>{{Experiencia.nombreE}}</h2>
+                  </td>
+                  <td>{{Experiencia.descripcionE}}</td>
+                  <td *ngIf="isLogged">
+                      <button class="btn btn-dark" routerLink="/editexp/{{Experiencia.id}}">
+                          <i class="bi bi-pencil-fill"></i> EDITAR</button>
+                  </td>
+                  <td *ngIf="isLogged">
+                      <button class="btn btn-danger" (click)="delete(Experiencia.id)">
+                          <i class="bi bi-trash-fill"></i> BORRAR</button>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
 
-      <ul>
-        <li><h1>Timmer en Esfuerzo Deportivo</h1><h3>(7 Años)</h3></li>
-        <p>Toma de tiempos y clasificaciones de maratones con sistemas digitales</p>
-      </ul>
-
-      <ul>
-        <li><h1>Administrativo Optica Gallo</h1><h3>(6 Años)</h3></li>
-        <p>Administracion, gestion y control de stock</p>
-      </ul>
-    </div>
 </div>

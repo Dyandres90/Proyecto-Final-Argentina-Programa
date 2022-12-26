@@ -1,1 +1,6 @@
+D:\Final Project\final-project\Proyecto-Final-Argentina-Programa\Backend\src\main\java\com\portfolio\fam\Controller\PersonaController.java
 D:\Final Project\final-project\Proyecto-Final-Argentina-Programa\Backend\src\main\java\com\portfolio\fam\FamApplication.java
+D:\Final Project\final-project\Proyecto-Final-Argentina-Programa\Backend\src\main\java\com\portfolio\fam\Entity\Persona.java
+D:\Final Project\final-project\Proyecto-Final-Argentina-Programa\Backend\src\main\java\com\portfolio\fam\Service\ImpPersonaService.java
+D:\Final Project\final-project\Proyecto-Final-Argentina-Programa\Backend\src\main\java\com\portfolio\fam\Repository\IPersonaRepository.java
+D:\Final Project\final-project\Proyecto-Final-Argentina-Programa\Backend\src\main\java\com\portfolio\fam\Interface\IPersonaService.java
