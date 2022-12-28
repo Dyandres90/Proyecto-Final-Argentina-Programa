@@ -7,7 +7,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { LogosComponent } from './components/logos/logos.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
-import { NombreComponent } from './components/nombre/nombre.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { SkillsComponent } from './components/skills/skills.component';
@@ -22,6 +21,9 @@ import { NewExperienciaComponent } from './components/experiencia/new-experienci
 import { NeweducacionComponent } from './components/educacion/neweducacion.component';
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
 import { EditeducacionComponent } from './components/educacion/editeducacion.component';
+import { EditSkillComponent } from './components/skills/edit-skill.component';
+import { NewSkillComponent } from './components/skills/new-skill.component';
+import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,6 @@ import { EditeducacionComponent } from './components/educacion/editeducacion.com
     LogosComponent,
     BannerComponent,
     AcercaDeComponent,
-    NombreComponent,
     ExperienciaComponent,
     EducacionComponent,
     SkillsComponent,
@@ -41,7 +42,11 @@ import { EditeducacionComponent } from './components/educacion/editeducacion.com
     NewExperienciaComponent,
     NeweducacionComponent,
     EditExperienciaComponent,
-    EditeducacionComponent
+    EditeducacionComponent,
+    EditSkillComponent,
+    NewSkillComponent,
+    EditSkillComponent,
+    EditAcercaDeComponent
   
     
   ],
