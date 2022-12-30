@@ -11,7 +11,6 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
-import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
@@ -24,6 +23,9 @@ import { EditeducacionComponent } from './components/educacion/editeducacion.com
 import { EditSkillComponent } from './components/skills/edit-skill.component';
 import { NewSkillComponent } from './components/skills/new-skill.component';
 import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.component';
+import { ProyectoComponent } from './components/proyecto/proyectos.component';
+import { NewproyectoComponent } from './components/proyecto/newproyecto.component';
+import { EditproyectoComponent } from './components/proyecto/editproyecto.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,6 @@ import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.com
     ExperienciaComponent,
     EducacionComponent,
     SkillsComponent,
-    ProyectosComponent,
     FooterComponent,
     HomeComponent,
     LoginComponent,
@@ -46,7 +47,10 @@ import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.com
     EditSkillComponent,
     NewSkillComponent,
     EditSkillComponent,
-    EditAcercaDeComponent
+    EditAcercaDeComponent,
+    ProyectoComponent,
+    NewproyectoComponent,
+    EditproyectoComponent
   
     
   ],

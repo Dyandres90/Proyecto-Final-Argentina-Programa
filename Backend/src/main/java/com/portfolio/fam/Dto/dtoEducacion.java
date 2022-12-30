@@ -1,4 +1,3 @@
-
 package com.portfolio.fam.Dto;
 
 import javax.validation.constraints.NotBlank;
@@ -31,6 +30,5 @@ public class dtoEducacion {
 
     public void setDescripcionE(String descripcionE) {
         this.descripcionE = descripcionE;
-    }
-    
+    }  
 }
