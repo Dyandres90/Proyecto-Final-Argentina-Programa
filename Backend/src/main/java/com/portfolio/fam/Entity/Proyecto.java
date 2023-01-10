@@ -16,8 +16,8 @@ public class Proyecto {
     public Proyecto() {
     }
 
-    public Proyecto(String nombreE, String descripcionP) {
-        this.nombreP = nombreE;
+    public Proyecto(String nombreP, String descripcionP) {
+        this.nombreP = nombreP;
         this.descripcionP = descripcionP;
     }
 
