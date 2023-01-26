@@ -22,6 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/proyecto")
+/*@CrossOrigin(origins = "https://frontend-arg-programa.web.app")*/
 @CrossOrigin(origins = "http://localhost:4200")
 public class CProyecto {
      @Autowired
@@ -61,7 +62,7 @@ public class CProyecto {
         }
         
         Proyecto proyecto = new Proyecto(
-                dtoproyecto.getNombreP(), dtoproyecto.getDescripcionP()
+                dtoproyecto.getNombreP(), dtoproyecto.getDescripcionP(), dtoproyecto.getFechaInicioP(), dtoproyecto.getFechaFinP()
             );
         sProyecto.save(proyecto);
         return new ResponseEntity(new Mensaje("Proyecto creado"), HttpStatus.OK);
@@ -84,6 +85,8 @@ public class CProyecto {
         
         proyecto.setNombreP(dtoproyecto.getNombreP());
         proyecto.setDescripcionP(dtoproyecto.getDescripcionP());
+        proyecto.setFechaInicioP(dtoproyecto.getFechaInicioP());
+        proyecto.setFechaFinP(dtoproyecto.getFechaFinP());
         
         sProyecto.save(proyecto);
         
